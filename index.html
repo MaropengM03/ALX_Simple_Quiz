@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALX Simple Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h2>What is 2 + 2?</h2>
+        <form>
+            <div class="option">
+                <input type="radio" name="quiz" value="4" id="option1">
+                <label for="option1">4</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="quiz" value="22" id="option2">
+                <label for="option2">22</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="quiz" value="3" id="option3">
+                <label for="option3">3</label>
+            </div>
+            <button type="button" id="submit-answer">Submit Answer</button>
+            <p id="feedback"></p>
+        </form>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
